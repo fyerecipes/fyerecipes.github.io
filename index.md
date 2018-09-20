@@ -6,4 +6,3 @@ layout: default
 ## With Seth and friends
 
 I hate my life
-
