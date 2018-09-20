@@ -10,7 +10,8 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 There should be whitespace between paragraphs.
 
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/wq5D43qAsVg" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wq5D43qAsVg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 
 
 # Header 1
