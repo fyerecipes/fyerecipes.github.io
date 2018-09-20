@@ -6,9 +6,12 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
+
 There should be whitespace between paragraphs.
 
+
 {% youtube VcgJro0sTiM %}
+
 
 <iframe width="420" height="315" src="http://www.youtube.com/embed/wq5D43qAsVg" frameborder="0" allowfullscreen></iframe>
 
