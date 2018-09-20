@@ -27,14 +27,10 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 ### Small image
 
-<center>
 ![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-</center>
 
 ### Large image
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
-
-### Definition lists can be used with HTML syntax.
 
