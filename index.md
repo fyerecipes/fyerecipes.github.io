@@ -1,6 +1,6 @@
 ---
 layout: default
----T
+---
 
 # Cooking with Foodhaifah
 ## Feat. Plate Crutcher, Chef Francis, and many more
