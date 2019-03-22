@@ -62,11 +62,11 @@ h1,h3 {
     100%{   color: #000;    }
 }
 
-.blinking2{
+#blinking2{
     animation:blinkingText 0.7s infinite;
 }
 
-.swelling{
+#swelling{
   animation:swellText 0.8s infinite;
 }
 
@@ -76,7 +76,7 @@ h1,h3 {
   100%{  font-size: 100%;   }
 }
 
-.wiggle{
+#wiggle{
   animation:wiggleText 0.8s infinite;
 }
 
