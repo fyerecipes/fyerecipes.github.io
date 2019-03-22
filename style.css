@@ -1,15 +1,5 @@
-
-
-body {
-  cursor: url('cursor.png'), default;
-  font-family: crap;
-}
-
-
-@font-face {
-  font-family: crap;
-  src: URL('comic.ttf') format('truetype');
-}
+body { cursor: url('cursor.png'), default; font-family: crap; }
+@font-face { font-family: crap; src: URL('comic.ttf') format('truetype'); }
 
 .grad1 {
     height: 200px;
@@ -26,34 +16,25 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.nice {
-  -webkit-text-fill-color: red;
-}
+.nice { -webkit-text-fill-color: red; }
 
-.wrapper{
+.wrapper {
     display:-webkit-flex;
     -webkit-justify-content:center;
-
     display:flex;
     justify-content:center;
-
 }
 
-.wrapper div{
+.wrapper div {
     -webkit-flex:1;
     flex:1;s
-
 }
 
-h1,h3 {
-    text-align: center;
-}
+h1,h3 { text-align: center; }
 
 .w3-spin{animation:w3-spin 2s infinite linear}@keyframes w3-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+.blinking{ animation:blinkingText 0.8s infinite; }
 
-.blinking{
-    animation:blinkingText 0.8s infinite;
-}
 @keyframes blinkingText{
     0%{     color: #000;    }
     49%{    color: #000; }
@@ -62,13 +43,7 @@ h1,h3 {
     100%{   color: #000;    }
 }
 
-.blinking2{
-    animation:blinkingText 0.7s infinite;
-}
-
-.swelling{
-  animation:swellText 0.8s infinite;
-}
+.swelling{ animation:swellText 0.8s infinite; }
 
 @keyframes swellText{
   0%{    font-size: 100%;   }
@@ -76,11 +51,9 @@ h1,h3 {
   100%{  font-size: 100%;   }
 }
 
-.wiggle{
-  animation:wiggleText 0.8s infinite;
-}
+.wiggle{ animation:wiggleText 0.8s infinite; }
 
-@keyframes wiggleText{
+@keyframes wiggleText {
    0% {margin-right:10%;}
    50%{margin-right:0%;}
    100%{margin-right:10%;}
