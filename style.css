@@ -11,7 +11,7 @@ body {
   src: URL('comic.ttf') format('truetype');
 }
 
-#grad1 {
+.grad1 {
     height: 200px;
     background: red; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
@@ -20,17 +20,17 @@ body {
     background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
 }
 
-#groovy {
+.groovy {
   background: linear-gradient(to left, orange , yellow, green, cyan, blue, violet);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-#nice {
+.nice {
   -webkit-text-fill-color: red;
 }
 
-#wrapper{
+.wrapper{
     display:-webkit-flex;
     -webkit-justify-content:center;
 
@@ -39,7 +39,7 @@ body {
 
 }
 
-#wrapper div{
+.wrapper div{
     -webkit-flex:1;
     flex:1;s
 
@@ -62,11 +62,11 @@ h1,h3 {
     100%{   color: #000;    }
 }
 
-#blinking2{
+.blinking2{
     animation:blinkingText 0.7s infinite;
 }
 
-#swelling{
+.swelling{
   animation:swellText 0.8s infinite;
 }
 
@@ -76,7 +76,7 @@ h1,h3 {
   100%{  font-size: 100%;   }
 }
 
-#wiggle{
+.wiggle{
   animation:wiggleText 0.8s infinite;
 }
 
